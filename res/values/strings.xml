@@ -7,4 +7,17 @@
     <string name="button_map">MAP</string>
     <string name="button_list">LIST</string>
     <string name="desc">ImageContentDescription</string>
+    <string name="default_username">Username</string>
+    <string name="go_loc">UCI Campus</string>
+    <string name="back_loc">Ranch 99</string>
+    <string name="go_time">11:00 AM</string>
+    <string name="go_time_range">30 mins</string>
+    <string name="go_time_date">Thu. 05/12</string>
+    <string name="back_time">16:00 PM</string>
+    <string name="back_time_range">45 mins</string>
+    <string name="back_time_date">Wed. 05/13</string>
+    <string name="seats_availability">4/5</string>
+    <string name="driver_status_okay">OK!</string>
+    <string name="driver_status_not_yet">\?\?</string>
+    <string name="wanna_join">Join</string>
 </resources>

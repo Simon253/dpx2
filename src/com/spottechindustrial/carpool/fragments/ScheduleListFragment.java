@@ -1,16 +1,13 @@
 package com.spottechindustrial.carpool.fragments;
 
-import com.spottechindustrial.carpool.R;
-import com.spottechindustrial.carpool.adapters.CustomArrayAdapter;
-
-import android.os.Bundle;
 import android.app.ListFragment;
-import android.util.Log;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+
+import com.spottechindustrial.carpool.R;
+import com.spottechindustrial.carpool.adapters.CustomArrayAdapter;
 
 public class ScheduleListFragment extends ListFragment{
 
@@ -34,9 +31,9 @@ public class ScheduleListFragment extends ListFragment{
 
 	    CustomArrayAdapter myCustomArrayAdapter = new CustomArrayAdapter( getActivity(), R.layout.list_row_schedule, values) ;
 	    
-	    final ImageView hasCar = (ImageView) getView().findViewById(R.id.hasCarIconScheduleItem);
-	    View hasCarParent = (View) getView().findViewById(R.id.hasDrvScheduleItem);
-	    Log.d("Simon", "hasCarParent = " + hasCarParent);
+	    //final ImageView hasCar = (ImageView) getView().findViewById(R.id.hasCarIconScheduleItem);
+	    //View hasCarParent = (View) getView().findViewById(R.id.hasDrvScheduleItem);
+	    //Log.d("Simon", "hasCarParent = " + hasCarParent);
 	    /*
 	    hasCar.setOnClickListener(new OnClickListener(){
 	    		public void onClick(View v){

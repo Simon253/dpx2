@@ -25,7 +25,7 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 		View rowView = inflater.inflate(R.layout.list_row_schedule, parent,
 				false);
 
-		ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
+		ImageView imageView = (ImageView) rowView.findViewById(R.id.imageViewUserIcon);
 		String s = values[position];
 
 		return rowView;
