@@ -1,7 +1,7 @@
 package com.spottechindustrial.carpool;
 
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
+// import com.google.android.gms.maps.GoogleMap;
+// import com.google.android.gms.maps.MapFragment;
 import com.spottechindustrial.carpool.fragments.ScheduleListFragment;
 
 import android.app.Activity;
@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class MainActivity extends Activity {
 	public static final String TAG = MainActivity.class.getSimpleName();
-	private GoogleMap map;
+	// private GoogleMap map;
 	private ScheduleListFragment scheduleListFrag;
 	
 	protected void onCreate(Bundle savedInstanceState){
